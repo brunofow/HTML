@@ -4,7 +4,11 @@ body{
 h1{
     border-bottom: 10px solid #000000;
 }
+h2{
+    font-size: 30px;
+}
 main h1{
+    font-size: 60px;
     background-color: #851944;
     color: #FAFFFA;
     text-align: center;
@@ -21,14 +25,14 @@ body{
 }
 p{
     text-align: justify;
+    margin: 20px 0;
     
 }
 blockquote{
     background-color: #D9E5E3;
-    padding: 16px;
     border: 10px solid #C2CCCA;
     width: 250px;
-    margin: 0;
+    margin: 20px 40px;
     box-sizing: border-box;
 
 
@@ -60,7 +64,18 @@ main div {
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5;
+    padding: 30px 0;
 }
 ul {
     list-style-type: none;
+}
+aside h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+strong{
+    font-weight: bold;
+}
+em{
+    font-style: italic;
 }
