@@ -2,8 +2,10 @@ body{
     line-height: 1.5;
     background-color: #F2FFFC;
     font-family: "Crimson Text", serif;
+    text-align: justify;
 }
 h2 {
+    text-align: justify;
     clear: both;
 }
 h1, h2 {
@@ -51,6 +53,7 @@ article {
     margin-right: auto;
     padding: 30px 0;
     line-height: 1.5;
+    padding-bottom: 80px;
 }
 blockquote {
     font-style: italic;
@@ -82,14 +85,17 @@ aside a{
     color:inherit;
     font-family: 'Open Sans Condensed', sans-serif;
 }
-aside {
-    border-bottom: 10px solid #000000;
+aside{
+    width: 15%;
+    position: relative;
+    top: 310px;
+
 }
+
 aside, img {
     float: right;
-    width: 15%;
     border-left: 10px solid #000000;
-
+    border-bottom: 10px solid #000000;
     box-sizing: border-box;
 }
 nav a {
@@ -131,6 +137,23 @@ nav a{
     color: #F2FFFC;
     background-color: #000000;
     clear: both;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+}
+.minha-foto{
+    position: absolute;
+    right: 0px;
+
+}
+.aside-blog{
+    text-align: center;
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    position: fixed;
+    right: 0px;
+    top: 0px;
 
 }
 
