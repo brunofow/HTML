@@ -7,6 +7,7 @@
     background-color: #E6E7E8;
 }
 
+<<<<<<< HEAD
 .post-blog + .post-blog {
     padding-top: 1em;
     margin-top: 1.5em;
@@ -14,4 +15,10 @@
     background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: top center;
+=======
+.post-blog {
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1em;
+>>>>>>> 9061c37f4e175d1a57734a86ce6b7ffa75249e8c
 }

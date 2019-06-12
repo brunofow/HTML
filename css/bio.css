@@ -7,11 +7,16 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 .citacao-bio:nth-of-type(even) {
+=======
+.petrobras {
+>>>>>>> 9061c37f4e175d1a57734a86ce6b7ffa75249e8c
     float: left;
     margin-left: 0;
 }
 
+<<<<<<< HEAD
 .citacao-bio:nth-of-type(odd) {
     float: right;
     margin-right: 0;
@@ -81,3 +86,9 @@ table {
 .habilidades td[rowspan] {
     vertical-align: middle;
 }
+=======
+.fiat {
+    float: right;
+    margin-right: 0;
+}
+>>>>>>> 9061c37f4e175d1a57734a86ce6b7ffa75249e8c
