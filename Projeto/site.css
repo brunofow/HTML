@@ -1,0 +1,160 @@
+body{
+    line-height: 1.5;
+    background-color: #F2FFFC;
+    font-family: "Crimson Text", serif;
+    text-align: justify;
+}
+h2 {
+    text-align: justify;
+    clear: both;
+}
+h1, h2 {
+    font-family: "Open Sans Condensed", serif, sans-serif;
+}
+main {
+    float: left;
+    width: 85%;
+}
+.titulo{
+    border-bottom: 10px solid #000000;
+    font-size: 60px;
+    background-color: #851944;
+    color: #FAFFFA;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    text-transform: uppercase;
+}
+.subtitulo{
+    font-size: 30px;
+}
+p {
+    text-align: justify;
+    margin: 20px;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+main a {
+    color: #851944;
+}
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.container{
+    text-align: center;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+    line-height: 1.5;
+    padding-bottom: 80px;
+}
+blockquote {
+    font-style: italic;
+    background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    margin: 20px 40px;
+    box-sizing: border-box
+}
+.citacao {
+    float: right;
+}
+.citacao2 {
+    float: left;
+}
+.link{
+    padding: 8px;
+    text-align: center;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    background-color: #E6E7E8;
+}
+aside h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+aside a{
+    color:inherit;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+aside{
+    width: 15%;
+    position: relative;
+    top: 310px;
+
+}
+
+aside, img {
+    float: right;
+    border-left: 10px solid #000000;
+    border-bottom: 10px solid #000000;
+    box-sizing: border-box;
+}
+nav a {
+    color:  #F2FFFC;
+}
+.barra-de-navegacao {
+    text-align: center;
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+ul {
+    list-style-type: none;    
+}
+.icones-sociais li{
+    display: inline-block;
+}
+.icones-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.github {
+    background-image: url(github.png);
+}
+.twitter {
+    background-image: url(twitter.png);
+}
+.linkedin {
+    background-image: url(linkedin.png);
+}
+.titulo-navegacao {
+    text-transform: uppercase;
+}
+nav a{
+    text-transform: lowercase;
+}
+.rodape {
+    color: #F2FFFC;
+    background-color: #000000;
+    clear: both;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+}
+.minha-foto{
+    position: absolute;
+    right: 0px;
+
+}
+.aside-blog{
+    text-align: center;
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+
+}
+
+
