@@ -3,6 +3,8 @@ body {
     background-color: #F2FFFC;
     font-size: 120%;
     line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1,
@@ -14,10 +16,7 @@ h2,
 h1 {
     text-transform: uppercase;
     font-size: 3em;
-<<<<<<< HEAD
     text-shadow: 3px 3px #000;
-=======
->>>>>>> 9061c37f4e175d1a57734a86ce6b7ffa75249e8c
 }
 
 .titulo-principal {
@@ -37,7 +36,6 @@ main a {
     color: #851944;
 }
 
-<<<<<<< HEAD
 main a:hover,
 main a:focus,
 footer a:focus,
@@ -45,8 +43,6 @@ footer a:hover {
     color: red;
 }
 
-=======
->>>>>>> 9061c37f4e175d1a57734a86ce6b7ffa75249e8c
 main p {
     text-align: justify;
     margin: 1em 0;
@@ -65,24 +61,17 @@ main p {
     text-transform: lowercase;
 }
 
-<<<<<<< HEAD
 .navegacao-site a:hover,
 .navegacao-site a:focus {
     text-shadow: 0 0 2px pink;
 }
 
-=======
->>>>>>> 9061c37f4e175d1a57734a86ce6b7ffa75249e8c
 .navegacao-site h1 {
     font-size: 1.5em;
     margin-bottom: 1em;
 }
 
 .rodape-pagina {
-<<<<<<< HEAD
-=======
-    background-color: #000;
->>>>>>> 9061c37f4e175d1a57734a86ce6b7ffa75249e8c
     color: #F2FFFC;
     padding: 1em;
     clear: both;
@@ -91,7 +80,6 @@ main p {
     left: 0;
     width: 100%;
     box-sizing: border-box;
-<<<<<<< HEAD
     background-repeat: no-repeat;
     text-shadow: 1px 1px black;
     background-image: radial-gradient(ellipse at left bottom,
@@ -101,8 +89,6 @@ main p {
         black 70%,
         transparent 70%);
     background-size: 25% 100%;
-=======
->>>>>>> 9061c37f4e175d1a57734a86ce6b7ffa75249e8c
 }
 
 .container {
@@ -144,13 +130,10 @@ em {
 }
 
 main {
-<<<<<<< HEAD
     width: calc(100% - 0.9 * 300px);
-=======
-    width: 80%;
->>>>>>> 9061c37f4e175d1a57734a86ce6b7ffa75249e8c
-    float: left;
     padding-bottom: 4em;
+    flex-grow: 1;
+    
 }
 
 .minha-foto,
@@ -161,12 +144,7 @@ main {
 }
 
 .navegacao-site {
-<<<<<<< HEAD
     width: calc(0.9 * 300px);
-=======
-    width: 20%;
->>>>>>> 9061c37f4e175d1a57734a86ce6b7ffa75249e8c
-    float: right;
     position: relative;
     top: 300px;
 }
@@ -177,7 +155,6 @@ main {
     right: 0;
     height: 300px;
 }
-<<<<<<< HEAD
 
 .icones-redes-sociais a {
     position: relative;
@@ -207,5 +184,3 @@ main {
     background-color: black;
     transform: translateY(.5em) rotate(45deg);
 }
-=======
->>>>>>> 9061c37f4e175d1a57734a86ce6b7ffa75249e8c

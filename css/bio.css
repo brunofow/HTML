@@ -5,18 +5,15 @@
     margin: 1em 2em;
     width: 30ch;
     box-sizing: border-box;
+    transition: box-shadow 1s, transform 1s;
+    transition-delay: 1s, 0s;
 }
 
-<<<<<<< HEAD
 .citacao-bio:nth-of-type(even) {
-=======
-.petrobras {
->>>>>>> 9061c37f4e175d1a57734a86ce6b7ffa75249e8c
     float: left;
     margin-left: 0;
 }
 
-<<<<<<< HEAD
 .citacao-bio:nth-of-type(odd) {
     float: right;
     margin-right: 0;
@@ -24,6 +21,7 @@
 
 .citacao-bio:hover,
 .citacao-bio:focus {
+    transition-delay: 0s, 1s;
     box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
 }
 
@@ -57,38 +55,36 @@
 .citacao-bio > p {
     position: relative;
 }
-thead {
-    color: #fff;
-    font-weight: bold;
-    background-color: #3C1D3D;
-}
-thead th {
-    padding: 1em;
-}
-tbody th {
-    font-weight: bold;
-    color: #fff;
-    background-color: #851944;
-}
-tbody td {
-    padding: 1em;
-    background-color: #eee;
-}
-table {
-    margin-top: 1em;
+
+.habilidades {
     border-collapse: separate;
     border-spacing: .25em;
+    margin: 1em 0;
 }
-.habilidades td[colspan] {
+
+.habilidades th {
+    font-weight: bold;
+    background-color: #851944;
+    color: white;
+}
+
+.habilidades td {
+    background-color: #eee;
+}
+
+.habilidades th,
+.habilidades td {
+    padding: 1em;
+}
+
+.habilidades thead th {
+    background-color: #3C1D3D;
+}
+
+.habilidades [colspan] {
     text-align: center;
     font-style: italic;
 }
-.habilidades td[rowspan] {
+.habilidades [rowspan] {
     vertical-align: middle;
 }
-=======
-.fiat {
-    float: right;
-    margin-right: 0;
-}
->>>>>>> 9061c37f4e175d1a57734a86ce6b7ffa75249e8c
